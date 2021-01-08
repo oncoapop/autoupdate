@@ -4,7 +4,6 @@
 # https://help.ubuntu.com/18.04/serverguide/automatic-updates.html
 
 # Copy git info
-scp oncoapop@ma.sdf.org:~/.netrc .
 git clone https://github.com/oncoapop/autoupdate.git
 
 sudo apt install unattended-upgrades
